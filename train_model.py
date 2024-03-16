@@ -7,7 +7,3 @@ model.fit(df)
 model.save('model.pkl')
 new_data = df.sample(n=10)
 new_data.to_csv('new_data.csv', index=False)
-
-
-
-
